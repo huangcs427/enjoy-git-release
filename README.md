@@ -2,105 +2,105 @@
   <img width="150" src="https://enjoygit.com/images/logo.png">
 </p>
 
-English | [简体中文](./README.zh-CN.md) | [繁體中文](./README.zh-HK.md)
+[English](./README.en.md) | 简体中文 | [繁體中文](./README.zh-HK.md)
 
-# [Website](https://enjoygit.com) · [Privacy Policy](https://enjoygit.com/privacyPolicy.html)
+# [官网](https://enjoygit.com) · [隐私政策](https://enjoygit.com/privacyPolicy.html)
 
-# Enjoy Git - Simple & Efficient Git Client
+# Enjoy Git - 简易高效的 Git 客户端
 
-Enjoy Git is a modern Git GUI built with **Electron, Vue 3, and TypeScript**. A three-column layout brings navigation, file lists, and diff / commit areas together—visualizing everyday Git work while keeping line-level staging, commit graphs, and conflict resolution within reach.
-
----
-
-## Supported Platforms
-
-| Platform | Version / Format | Architectures | Git |
-|----------|------------------|---------------|-----|
-| **Windows** | Windows 10, Windows 11 | x64, arm64 | **Bundled** (dugite-native), ready to use |
-| **macOS** | macOS 10.15 and later | x64 (older Intel Macs), arm64 (Apple Silicon M1 and later) | **Bundled** (dugite-native), ready to use |
-| **Linux** | Debian-based (`.deb`), Red Hat-based (`.rpm`) | x64, arm64 | **System Git** required |
-
-> On Windows and macOS, install the app and start using Git—no separate Git install. On Linux, install system Git first (e.g. `sudo apt install git`) and ensure `git` works in your terminal.
+Enjoy Git 是一款基于 **Electron、Vue 3 与 TypeScript** 的现代化 Git 图形客户端。三栏布局将导航、文件列表与 diff / 提交区集中呈现，把日常 Git 操作可视化，同时保留行级暂存、提交图、冲突解决等进阶能力。
 
 ---
 
-## Preview
+## 支持平台
+
+| 平台 | 版本 / 形态 | 架构 | Git |
+|------|-------------|------|-----|
+| **Windows** | Windows 10、Windows 11 | x64、arm64 | **内置**（dugite-native），开箱即用 |
+| **macOS** | macOS 10.15 及以上 | x64（Intel 旧款 Mac）、arm64（Apple Silicon M1 及以后） | **内置**（dugite-native），开箱即用 |
+| **Linux** | Debian 系（`.deb`）、Red Hat 系（`.rpm`） | x64、arm64 | 使用**系统环境**中的 Git，需预先安装 |
+
+> Windows / macOS 安装后即可使用，无需单独安装 Git。Linux 请先安装系统 Git（如 `sudo apt install git`），并确保终端可执行 `git` 命令。
+
+---
+
+## 界面预览
 
 <p align="center">
   <a href="docs/images/enjoy-git.gif">
-    <img src="docs/images/enjoy-git.gif" alt="Enjoy Git demo" width="920" />
+    <img src="docs/images/enjoy-git.gif" alt="Enjoy Git 应用演示" width="920" />
   </a>
 </p>
 
 ---
 
-## Supported Languages
+## 支持的语言
 
-Switch via menu **Language**:
+界面可在菜单 **Language** 中切换：
 
-- **Simplified Chinese**
-- **Traditional Chinese**
+- **简体中文**
+- **繁体中文**
 - **English**
 
 ---
 
-## Supported Themes
+## 支持的主题
 
-Switch via menu **View**:
+在菜单 **View（视图）** 中切换：
 
-- **Dark mode**
-- **Light mode**
-
----
-
-## Features
-
-| Feature | Description |
-|---------|-------------|
-| **Multi-repository** | Open multiple local repos in tabs; each keeps its own branch, staging, and view state |
-| **Clone & onboarding** | Clone over HTTP / SSH, add local repos; recursive submodule clone |
-| **Working directory** | Staged / unstaged sections; list and file tree views; batch stage; file context menus (history, Blame, stash, open externally, etc.) |
-| **Diff review** | Unified / side-by-side diff; syntax highlighting; **line-level stage** and discard; unchanged code folded by default, **expand context up/down** or reveal all at once; image diff |
-| **Commit** | Summary and description; Amend; skip hooks; commit and push; **smart commit message generation** |
-| **Commit history** | Visual commit graph; search; change list / file tree; multi-select Cherry-pick, Squash, Revert |
-| **Branches & remotes** | Checkout, merge, rebase, tracking, rename; configurable push; multiple remotes |
-| **Tags & stash** | Create and checkout tags; stash apply / pop / delete |
-| **File history** | Per-file history window; line-by-line Blame |
-| **Conflict resolution** | Visual conflict editor for merge, rebase, pull, etc.; accept current / incoming / both |
-| **Menus & shortcuts** | Full File / View / Repository / Help menus; Fetch, Pull, Push shortcuts |
-| **Settings** | External programs, SSH keys, smart commit message generation; logs and config directories |
+- **深色模式**
+- **浅色模式**
 
 ---
 
-## Download & Install
+## 功能
 
-Download the installer for your platform and architecture from [GitHub Releases](https://github.com/huangcs427/enjoy-git-release/releases).
+| 功能 | 说明 |
+|------|------|
+| **多仓库** | 顶部标签同时打开多个本地仓库，各自保留分支、暂存与视图状态 |
+| **克隆与接入** | 克隆 HTTP / SSH 远程仓库、添加本机项目；支持递归克隆子模块 |
+| **工作区** | 已暂存 / 未暂存分区；列表与文件树切换；批量暂存；文件右键（历史、Blame、贮藏、外部打开等） |
+| **差异审阅** | 统一 / 双栏 diff；语法高亮；**行级暂存**与丢弃；未变更代码默认折叠，**可向上/向下展开指定上下文**或一次性展开全部；图片 diff |
+| **提交** | 摘要与详情；Amend；跳过钩子；提交并推送；**智能生成提交消息** |
+| **提交历史** | 可视化提交图；搜索筛选；变更列表 / 文件树；多选 Cherry-pick、Squash、Revert |
+| **分支与远程** | 检出、合并、变基、跟踪、重命名；可配置推送选项；多远程管理 |
+| **标签与贮藏** | 标签创建与检出；贮藏应用 / 弹出 / 删除 |
+| **文件追溯** | 单文件历史窗口；按行审阅（Blame） |
+| **冲突解决** | 合并、变基、拉取等场景的可视化冲突编辑；接受当前 / 传入 / 双方 |
+| **菜单与快捷操作** | File / View / Repository / Help 完整菜单；Fetch、Pull、Push 等快捷键 |
+| **设置** | 外部打开程序、SSH 密钥、智能生成提交消息；日志与配置目录 |
 
 ---
 
-## FAQ
+## 下载与安装
 
-### What makes Enjoy Git different?
+前往 [GitHub Release](https://github.com/huangcs427/enjoy-git-release/releases) 下载对应平台与架构的安装包，按向导安装即可。
 
-An intuitive UI with strong support for **conflict resolution**, **partial commits (line-level staging)**, and **file history**—accessible for beginners and power users alike.
+---
 
-### Does Enjoy Git monitor my repositories?
+## 常见问题
 
-**No.** Git operations, credentials, and logs stay on your machine; your commits and repo contents are not uploaded for reading. See the [privacy policy](https://enjoygit.com/privacyPolicy.html) for basic usage statistics.
+### 与其他 Git 客户端相比有什么优势？
 
-### How do I report issues?
+界面直观，在**冲突解决**、**部分提交（行级暂存）**和**文件历史**方面更易上手，兼顾新手与进阶用户。
 
-- [GitHub Issues](https://github.com/huangcs427/enjoy-git-release/issues)
+### 会监视我的仓库数据吗？
+
+**不会。** Git 操作、凭证与日志主要保存在本机，不会上传读取您的提交或仓库内容。基础使用统计请参阅[隐私政策](https://enjoygit.com/privacyPolicy.html)。
+
+### 如何反馈问题？
+
+- [GitHub Issue](https://github.com/huangcs427/enjoy-git-release/issues)
 - [huangcs427@163.com](mailto:huangcs427@163.com)
 
 ---
 
-## dugite-native Source Code
+## dugite-native 调用源代码
 
 ```ts
 /**
- * Bundled Git uses dugite-native
- * https://github.com/desktop/dugite-native
+ * 本软件内置的 Git 使用了 dugite-native
+ * 项目地址：https://github.com/desktop/dugite-native
  */
 import { spawn } from 'child_process';
 import * as fs from 'fs-extra';
@@ -147,8 +147,8 @@ export const git = (args: string[], options: TObjectValue) => {
 
 ---
 
-## Feedback
+## 反馈与建议
 
-- [GitHub Issues](https://github.com/huangcs427/enjoy-git-release/issues)
+- [GitHub Issue](https://github.com/huangcs427/enjoy-git-release/issues)
 - [huangcs427@163.com](mailto:huangcs427@163.com)
-- [Privacy Policy](https://enjoygit.com/privacyPolicy.html)
+- [隐私政策](https://enjoygit.com/privacyPolicy.html)

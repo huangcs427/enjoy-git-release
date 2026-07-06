@@ -2,7 +2,7 @@
   <img width="150" src="https://enjoygit.com/images/logo.png">
 </p>
 
-[English](./README.md) | [簡體中文](./README.zh-CN.md) | 繁體中文
+[English](./README.en.md) | [簡體中文](./README.md) | 繁體中文
 
 # [官網](https://enjoygit.com) · [私隱政策](https://enjoygit.com/privacyPolicy.html)
 
