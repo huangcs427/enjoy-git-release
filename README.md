@@ -38,7 +38,7 @@ Windows 和 macOS **内置 Git**，安装后即可使用；Linux 需先安装系
 
 ## 功能导览
 
-以下截图均为简体中文浅色界面，点击可查看原图。深色主题示例位于文末的“语言与主题”。
+点击图片可查看原图。
 
 [仓库接入与项目组织](#repositories) · [工作区、差异与按行暂存](#changes) · [提交历史与 Git Graph](#history) · [遴选与历史整理](#cherry-pick) · [文件历史与按行审阅](#file-history) · [分支、远程、标签与贮藏](#branches) · [工作树切换与并行开发](#worktrees) · [文件内冲突处理与三栏合并](#conflicts) · [全文搜索、替换与编辑](#search) · [AI 提交消息](#ai) · [内置终端与命令流水线](#commands) · [子模块与连接设置](#submodules)
 
@@ -184,7 +184,7 @@ Windows 和 macOS **内置 Git**，安装后即可使用；Linux 需先安装系
 
 ## 语言与主题
 
-支持简体中文、繁體中文和 English，可选择浅色、深色或跟随系统主题。三种 README 分别使用对应语言的截图。
+支持简体中文、繁體中文和 English，可选择浅色、深色或跟随系统主题。
 
 <details>
 <summary>查看深色主题</summary>

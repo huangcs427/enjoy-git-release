@@ -38,7 +38,7 @@ Windows and macOS **include Git**. On Linux, install system Git before using the
 
 ## Feature tour
 
-All screenshots below show the English interface in the light theme. Click any image to view it at full size. A dark theme example appears under Language & theme.
+Click any image to view it at full size.
 
 [Repositories & project organization](#repositories) · [Working directory, diffs & line staging](#changes) · [Commit history & Git Graph](#history) · [Cherry-pick & history editing](#cherry-pick) · [File history & line-by-line Blame](#file-history) · [Branches, remotes, tags & stashes](#branches) · [Worktree switching & parallel development](#worktrees) · [In-file conflict resolution & three-way merge](#conflicts) · [Search, replace & editing](#search) · [AI commit messages](#ai) · [Integrated terminal & command pipelines](#commands) · [Submodules & connection settings](#submodules)
 
@@ -184,7 +184,7 @@ Connection and environment settings also cover **SSH key management, GitHub auth
 
 ## Language & theme
 
-Available in English, Simplified Chinese, and Traditional Chinese, with light, dark, and system themes. Each README uses screenshots in its own language.
+Available in English, Simplified Chinese, and Traditional Chinese, with light, dark, and system themes.
 
 <details>
 <summary>View the dark theme</summary>

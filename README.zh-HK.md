@@ -38,7 +38,7 @@ Windows 和 macOS **內建 Git**，安裝後即可使用；Linux 需先安裝系
 
 ## 功能導覽
 
-以下截圖均為繁體中文淺色介面，點擊可檢視原圖。深色主題範例位於文末的「語言與主題」。
+點擊圖片可檢視原圖。
 
 [儲存庫接入與專案整理](#repositories) · [工作區、差異與按行暫存](#changes) · [提交紀錄與 Git Graph](#history) · [挑選提交與整理歷史](#cherry-pick) · [檔案歷史與逐行檢視](#file-history) · [分支、遠端、標籤與儲藏](#branches) · [工作樹切換與並行開發](#worktrees) · [檔案內衝突處理與三欄合併](#conflicts) · [全文搜尋、取代與編輯](#search) · [AI 提交訊息](#ai) · [內建終端機與命令流水線](#commands) · [子模組與連線設定](#submodules)
 
@@ -184,7 +184,7 @@ Windows 和 macOS **內建 Git**，安裝後即可使用；Linux 需先安裝系
 
 ## 語言與主題
 
-支援簡體中文、繁體中文和 English，可選擇淺色、深色或跟隨系統主題。三種 README 分別使用對應語言的截圖。
+支援簡體中文、繁體中文和 English，可選擇淺色、深色或跟隨系統主題。
 
 <details>
 <summary>檢視深色主題</summary>
