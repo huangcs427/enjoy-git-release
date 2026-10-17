@@ -14,7 +14,7 @@
   <a href="https://github.com/huangcs427/enjoy-git-release/releases/latest">下载最新版本</a> · <a href="https://enjoygit.com">官网</a> · <a href="https://github.com/huangcs427/enjoy-git-release/issues">反馈问题</a>
 </p>
 
-Enjoy Git 是一款适用于 **macOS、Windows 和 Linux** 的桌面 Git 客户端，把代码差异、提交历史和冲突处理放在直观的界面里。
+Enjoy Git 是一款支持 **macOS、Windows 和 Linux** 的桌面 Git 客户端，提供中文界面与深浅色主题。它将日常版本管理、Worktree 并行开发、可视化冲突解决和 AI 提交消息生成整合在一个直观的界面中，支持按行暂存与取消暂存，让每次修改更易审阅、每次提交更可控。
 
 ![简体中文浅色界面：分支提交图、提交详情与代码差异](docs/images/history-zh-CN.png)
 
@@ -251,6 +251,10 @@ export const git = (args: string[], options: TObjectValue) => {
 ```
 
 </details>
+
+## 更新日志
+
+查看各版本的新功能、改进与修复：[v1.1.1](releases/v1.1.1.md)、[v1.1.0](releases/v1.1.0.md)、[v1.0.0](releases/v1.0.0.md)。安装包及完整发布记录见 [GitHub Releases](https://github.com/huangcs427/enjoy-git-release/releases)。
 
 ## 致谢
 
