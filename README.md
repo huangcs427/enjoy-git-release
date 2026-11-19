@@ -252,10 +252,6 @@ export const git = (args: string[], options: TObjectValue) => {
 
 </details>
 
-## 更新日志
-
-查看各版本的新功能、改进与修复：[v1.1.1](releases/v1.1.1.md)、[v1.1.0](releases/v1.1.0.md)、[v1.0.0](releases/v1.0.0.md)。安装包及完整发布记录见 [GitHub Releases](https://github.com/huangcs427/enjoy-git-release/releases)。
-
 ## 致谢
 
 - 提交图（Git Graph）布局和部分 SVG 绘制代码改编自 [VS Code（Code - OSS）的 Source Control History Graph](https://github.com/microsoft/vscode/blob/25c94ab342a6b167d4b97ade0829955d4f7e094e/src/vs/workbench/contrib/scm/browser/scmHistory.ts)，遵循 MIT 许可证。来源版本、版权与完整许可见[第三方声明](THIRD_PARTY_NOTICES.md)。
