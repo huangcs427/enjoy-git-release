@@ -195,7 +195,7 @@ Available in English, Simplified Chinese, and Traditional Chinese, with light, d
 
 ## dugite-native & bundled Git source
 
-Git bundled with Windows and macOS is provided by [dugite-native](https://github.com/desktop/dugite-native). The current resource configuration pins `v2.53.0-4`. See [Third-Party Notices](THIRD_PARTY_NOTICES.md#dugite-native-and-bundled-git) for the pinned upstream source and build instructions, and the [full GPL-2.0 license](docs/licenses/dugite-native-GPL-2.0.txt).
+Git bundled with Windows and macOS is provided by [dugite-native](https://github.com/desktop/dugite-native). The current resource configuration pins `v2.56.1`. See [Third-Party Notices](THIRD_PARTY_NOTICES.md#dugite-native-and-bundled-git) for the pinned upstream source and build instructions, and the [full GPL-2.0 license](docs/licenses/dugite-native-GPL-2.0.txt).
 
 The invocation example below covers Git paths, environment variables, and process spawning. It is also available as a [source file](docs/dugite-native-usage.ts).
 
@@ -213,7 +213,7 @@ import * as path from 'path';
 
 const getWin32GitSubfolder = (arch?: string): string => {
   const archRes = arch || process.arch
-  if (archRes === 'x64') return 'mingw64'
+  if (archRes === 'x64') return 'ucrt64'
   if (archRes === 'arm64') return 'clangarm64'
   return 'mingw32'
 }

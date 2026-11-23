@@ -73,20 +73,20 @@ Windows and macOS distributions use Git binaries prepared by
 
 The current client resource-preparation configuration pins:
 
-- Release: [`v2.53.0-4`](https://github.com/desktop/dugite-native/releases/tag/v2.53.0-4).
-- Binary build: `v2.53.0-4098283`, for Windows and macOS, x64 and arm64.
+- Release: [`v2.56.1`](https://github.com/desktop/dugite-native/releases/tag/v2.56.1).
+- Binary build: `v2.56.1-238326e`, for Windows and macOS, x64 and arm64.
 - License: GNU General Public License, version 2; the unmodified upstream text is
   included in [`docs/licenses/dugite-native-GPL-2.0.txt`](docs/licenses/dugite-native-GPL-2.0.txt).
-- Upstream source and build scripts: [the pinned source tree](https://github.com/desktop/dugite-native/tree/v2.53.0-4).
-- Git source revision: [the Git submodule at that release](https://github.com/desktop/dugite-native/tree/v2.53.0-4/git).
-- Build documentation: [setup](https://github.com/desktop/dugite-native/blob/v2.53.0-4/docs/setup.md)
-  and [build overview](https://github.com/desktop/dugite-native/blob/v2.53.0-4/docs/overview.md).
-- Other component versions and sources: [dependencies.json](https://github.com/desktop/dugite-native/blob/v2.53.0-4/dependencies.json).
+- Upstream source and build scripts: [the pinned source tree](https://github.com/desktop/dugite-native/tree/v2.56.1).
+- Git source revision: [the Git submodule at that release](https://github.com/desktop/dugite-native/tree/v2.56.1/git).
+- Build documentation: [setup](https://github.com/desktop/dugite-native/blob/v2.56.1/docs/setup.md)
+  and [build overview](https://github.com/desktop/dugite-native/blob/v2.56.1/docs/overview.md).
+- Other component versions and sources: [dependencies.json](https://github.com/desktop/dugite-native/blob/v2.56.1/dependencies.json).
 
 Retrieve the pinned source tree with its Git submodule using:
 
 ```sh
-git clone --branch v2.53.0-4 --recurse-submodules https://github.com/desktop/dugite-native.git
+git clone --branch v2.56.1 --recurse-submodules https://github.com/desktop/dugite-native.git
 ```
 
 The [application invocation example](docs/dugite-native-usage.ts) preserves the

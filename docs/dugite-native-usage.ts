@@ -8,7 +8,7 @@ import * as path from 'path';
 
 const getWin32GitSubfolder = (arch?: string): string => {
   const archRes = arch || process.arch
-  if (archRes === 'x64') return 'mingw64'
+  if (archRes === 'x64') return 'ucrt64'
   if (archRes === 'arm64') return 'clangarm64'
   return 'mingw32'
 }

@@ -195,7 +195,7 @@ Windows 和 macOS **内置 Git**，安装后即可使用；Linux 需先安装系
 
 ## dugite-native 与内置 Git 源码
 
-Windows / macOS 的内置 Git 由 [dugite-native](https://github.com/desktop/dugite-native) 提供。当前资源配置使用 `v2.53.0-4`；[完整 GPL-2.0 许可](docs/licenses/dugite-native-GPL-2.0.txt)、固定版本的上游源码和构建入口见[第三方声明](THIRD_PARTY_NOTICES.md#dugite-native-and-bundled-git)。
+Windows / macOS 的内置 Git 由 [dugite-native](https://github.com/desktop/dugite-native) 提供。当前资源配置使用 `v2.56.1`；[完整 GPL-2.0 许可](docs/licenses/dugite-native-GPL-2.0.txt)、固定版本的上游源码和构建入口见[第三方声明](THIRD_PARTY_NOTICES.md#dugite-native-and-bundled-git)。
 
 以下调用示例展示 Git 路径、环境变量设置与子进程启动；也可直接查看[源码文件](docs/dugite-native-usage.ts)。
 
@@ -213,7 +213,7 @@ import * as path from 'path';
 
 const getWin32GitSubfolder = (arch?: string): string => {
   const archRes = arch || process.arch
-  if (archRes === 'x64') return 'mingw64'
+  if (archRes === 'x64') return 'ucrt64'
   if (archRes === 'arm64') return 'clangarm64'
   return 'mingw32'
 }
