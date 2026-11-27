@@ -25,7 +25,7 @@ Get the installer for your operating system and processor from [GitHub Releases]
 | Platform | Installer | Architectures |
 | --- | --- | --- |
 | Windows | `.exe` | x64, arm64 |
-| macOS | `.dmg` | x64 (Intel), arm64 (Apple Silicon) |
+| macOS 13.0 (Ventura) or later | `.dmg` | x64 (Intel), arm64 (Apple Silicon) |
 | Linux | `.deb`, `.rpm` | x64, arm64 |
 
 Windows and macOS **include Git**. On Linux, install system Git before using the app.

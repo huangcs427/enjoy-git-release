@@ -25,7 +25,7 @@ Enjoy Git 是一款適用於 **macOS、Windows 和 Linux** 的桌面 Git 客戶�
 | 平台 | 安裝套件 | 架構 |
 | --- | --- | --- |
 | Windows | `.exe` | x64、arm64 |
-| macOS | `.dmg` | x64（Intel）、arm64（Apple Silicon） |
+| macOS 13.0（Ventura）或更新版本 | `.dmg` | x64（Intel）、arm64（Apple Silicon） |
 | Linux | `.deb`、`.rpm` | x64、arm64 |
 
 Windows 和 macOS **內建 Git**，安裝後即可使用；Linux 需先安裝系統 Git。
